@@ -7,7 +7,30 @@ public class MatrizApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         
-Scanner scanner = new Scanner(System.in);
+
+	
+        
+
+    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Scanner scanner = new Scanner(System.in);
         
         
         System.out.print("\nIngrese el número a buscar: ");
@@ -32,16 +55,13 @@ Scanner scanner = new Scanner(System.in);
    
     if (!listo) {
         System.out.println("El número " + buscar + " no existe en la matriz.");
-	
         
-
-    }
-    
-        }
 	}
 	
 }
+	}
 	
+}
 
 	
 
