@@ -52,16 +52,15 @@ public class MatrizApp {
 		
         if (listo) {
             break; 
-   
+        }
+        
+	}
+	
     if (!listo) {
         System.out.println("El número " + buscar + " no existe en la matriz.");
         
 	}
-	
-}
-	}
-	
+    
 }
 
-	
-
+}
