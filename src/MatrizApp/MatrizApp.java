@@ -36,7 +36,21 @@ public class MatrizApp {
         System.out.print("\nIngrese el número a buscar: ");
         int buscar = scanner.nextInt();
         
-       
+        boolean listo = false;
+        
+        
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                if (matriz[i][j] == buscar) {
+                    System.out.println("El número " + buscar + " está en la posición: Fila " + (i + 1) + ", Columna " + (j + 1));
+                    listo = true;
+                    break; 
+                }
+            }
+           
+        }
+		
+	
         
 
 }
